@@ -1,29 +1,279 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Website Under Construction</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            /* Add your image URL below */
-            background-image: url('https://path-to-your-image.jpg');
-            background-size: cover;
-            background-position: center;
-        }
-        h1 {
-            font-size: 2em;
-            color: #333;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BreezeWorks | Enterprise Commerce & Cloud Integration Solutions</title>
+    <meta name="description" content="BreezeWorks is a premium IT consulting firm founded by expert SAP Commerce architects. We build, optimize, and manage global e-commerce and cloud integrations.">
+    
+    <!-- Google Fonts: Outfit for display, Inter for body copy -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Our Website is Currently Under Construction. Please Check Back Soon!</h1>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#hero" class="logo-container">
+                    <img src="logo.png" alt="BreezeWorks Logo" class="logo-img">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#references">References</a></li>
+                    <li><a href="#team">Global Network</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="hero-tagline reveal">Enterprise-Grade Architecture</div>
+                    <h1 class="hero-title reveal">Empowering Global Commerce. <br><span>Simplified & Scalable.</span></h1>
+                    <p class="hero-subtitle reveal">BreezeWorks is a premium IT consulting firm founded by veteran SAP Commerce architects. We deliver robust e-commerce architectures and cloud integrations for market leaders.</p>
+                    <div class="hero-ctas reveal">
+                        <a href="#services" class="btn-primary">Our Services</a>
+                        <a href="#references" class="btn-secondary">View References <i data-lucide="arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="hero-illustration reveal">
+                    <div class="hero-shape"></div>
+                    <div class="hero-shape-2"></div>
+                    <div class="hero-card">
+                        <div class="hero-card-icon"><i data-lucide="shield"></i></div>
+                        <h3>Trusted Partner</h3>
+                        <p>Providing mission-critical platform development and architecture support for global giants since 2022.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section-soft">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">Services</span>
+                    <h2 class="section-title">Core Capabilities</h2>
+                    <p class="section-desc">We solve complex software engineering and architectural challenges for enterprise applications.</p>
+                </div>
+                
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card reveal">
+                        <div class="service-icon-box">
+                            <i data-lucide="layout"></i>
+                        </div>
+                        <h3>SAP Commerce Cloud</h3>
+                        <p>End-to-end development, core customization, and performance tuning for high-volume enterprise e-commerce portals.</p>
+                        <a href="#contact" class="service-link">Consult Now <i data-lucide="arrow-right"></i></a>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="service-card reveal">
+                        <div class="service-icon-box">
+                            <i data-lucide="database"></i>
+                        </div>
+                        <h3>System Integration</h3>
+                        <p>Bridging legacy infrastructures with modern cloud ecosystems, specializing in SAP Business Technology Platform (BTP) extensions.</p>
+                        <a href="#contact" class="service-link">Consult Now <i data-lucide="arrow-right"></i></a>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="service-card reveal">
+                        <div class="service-icon-box">
+                            <i data-lucide="cpu"></i>
+                        </div>
+                        <h3>Cloud Operations & AI</h3>
+                        <p>Managing resilient cloud service infrastructures and developing custom AI utilities for code quality audits.</p>
+                        <a href="#contact" class="service-link">Consult Now <i data-lucide="arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- References Section -->
+        <section id="references">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">References</span>
+                    <h2 class="section-title">Key Areas of Reference</h2>
+                    <p class="section-desc">A track record of delivering enterprise-grade platforms.</p>
+                </div>
+                
+                <div class="ref-grid">
+                    <!-- Reference 1 -->
+                    <div class="ref-card reveal">
+                        <div class="ref-meta">
+                            <span class="ref-client">Enterprise E-Commerce</span>
+                        </div>
+                        <h3 class="ref-title">Global Commerce Platforms</h3>
+                        <p class="ref-desc">Development, customization, and operations of global-scale commerce systems, partnering with market leaders like Samsung Electronics.</p>
+                        <div class="ref-tags">
+                            <span class="ref-tag">SAP Commerce</span>
+                            <span class="ref-tag">Operations Support</span>
+                            <span class="ref-tag">Global Scale</span>
+                        </div>
+                    </div>
+
+                    <!-- Reference 2 -->
+                    <div class="ref-card reveal">
+                        <div class="ref-meta">
+                            <span class="ref-client">System Integration</span>
+                        </div>
+                        <h3 class="ref-title">Cloud & SAP BTP Integration</h3>
+                        <p class="ref-desc">Modernizing legacy architectures and implementing enterprise extensions on SAP Business Technology Platform (BTP).</p>
+                        <div class="ref-tags">
+                            <span class="ref-tag">SAP BTP</span>
+                            <span class="ref-tag">Cloud Migration</span>
+                            <span class="ref-tag">Middleware Sync</span>
+                        </div>
+                    </div>
+
+                    <!-- Reference 3 -->
+                    <div class="ref-card reveal">
+                        <div class="ref-meta">
+                            <span class="ref-client">AI Technology</span>
+                        </div>
+                        <h3 class="ref-title">AI Developer Operations</h3>
+                        <p class="ref-desc">Proof of Concept development for AI-driven code reviews, syntax validation, and developer productivity automation.</p>
+                        <div class="ref-tags">
+                            <span class="ref-tag">AI/LLM</span>
+                            <span class="ref-tag">R&D</span>
+                            <span class="ref-tag">Code Quality</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Global Workforce Section -->
+        <section id="team" class="section-soft">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">Workforce</span>
+                    <h2 class="section-title">Global Delivery Network</h2>
+                    <p class="section-desc">We operate cross-border networks collaborating with specialized personnel in India, Vietnam, and China under centralized South Korean architect supervision.</p>
+                </div>
+                
+                <div class="network-grid">
+                    <!-- KR -->
+                    <div class="network-card reveal">
+                        <div class="network-flag-box">
+                            <span class="network-country">South Korea (HQ)</span>
+                        </div>
+                        <p class="network-detail">
+                            Lead architecture design, project governance, and technology consulting delivery.
+                        </p>
+                    </div>
+                    
+                    <!-- IN -->
+                    <div class="network-card reveal">
+                        <div class="network-flag-box">
+                            <span class="network-country">India Hub</span>
+                        </div>
+                        <p class="network-detail">
+                            Dedicated SAP Commerce engineers providing remote development and support.
+                        </p>
+                    </div>
+
+                    <!-- VN -->
+                    <div class="network-card reveal">
+                        <div class="network-flag-box">
+                            <span class="network-country">Vietnam Hub</span>
+                        </div>
+                        <p class="network-detail">
+                            Open-source technology implementation, localized engineering, and Quality Assurance (QA) services.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container reveal">
+                <div class="contact-card-centered">
+                    <h2 class="contact-info-title">Let's Connect</h2>
+                    <p class="contact-info-desc">Reach out directly to schedule a consultation with our technology experts to discuss your platform architecture and scaling requirements.</p>
+                    
+                    <ul class="contact-details-centered">
+                        <li>
+                            <i data-lucide="mail"></i>
+                            <a href="mailto:info@breezeworks.io">info@breezeworks.io</a>
+                        </li>
+                        <li>
+                            <i data-lucide="map-pin"></i>
+                            <span>Seoul, South Korea</span>
+                        </li>
+                    </ul>
+                    
+                    <a href="mailto:info@breezeworks.io" class="btn-email-cta">
+                        Email Us <i data-lucide="arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#hero" class="footer-logo">
+                        <img src="logo.png" alt="BreezeWorks White Logo" class="footer-logo-img">
+                    </a>
+                    <p class="footer-brand-desc">Enterprise commerce architecture, system integration, and global delivery services.</p>
+                </div>
+                
+                <div class="footer-links-grid">
+                    <div class="footer-nav">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#hero">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#references">References</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="#team">Global Network</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="mailto:info@breezeworks.io">info@breezeworks.io</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="copyrightYear">2026</span> BreezeWorks Inc. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
 </body>
 </html>
-
